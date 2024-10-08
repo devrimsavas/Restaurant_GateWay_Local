@@ -150,3 +150,17 @@ This will start the gateway and all services at the same time. However, due to o
 
 - **Main Gateway Interface**: A user-friendly main gateway interface was added for better navigation between customer, employee, and management services.
 - **Bootstrap Modal Form for Orders**: Replaced the simple alert-based input for customer orders with a Bootstrap modal form to improve user experience when placing orders.
+
+## TABLE CREATION
+
+If the user wants to create table manually
+
+for MS MSQL :
+
+CREATE TABLE Orders (
+OrderId INT IDENTITY(1,1) PRIMARY KEY,
+FirstName VARCHAR(255),
+LastName VARCHAR(255),
+DishName VARCHAR(255),
+Active BIT
+);
