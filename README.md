@@ -34,8 +34,8 @@ Each service runs on its own port and is managed through the gateway.
 
    ```bash
    ADMIN_USERNAME="sa"
-   ADMIN_PASSWORD="7HT&yp6@CZ&BwKy"
-   DATABASE_NAME="mytestdatabase"
+   ADMIN_PASSWORD=<yourpassword>
+   DATABASE_NAME=<yourdatabasename>
    HOST="localhost"
    DIALECT="mssql"
    PORT=8001
